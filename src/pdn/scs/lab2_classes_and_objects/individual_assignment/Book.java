@@ -1,4 +1,4 @@
-package pdn.scs.lab2.individual_assignment;
+package pdn.scs.lab2_classes_and_objects.individual_assignment;
 
 public class Book
 {
