@@ -15,3 +15,6 @@ This step is only required when using the university network.
 8. Run the IntelliJ IDEA IDE and choose “Import Project”.
 9. Select the local copy of the repository and click OK.
 10. To run a solution, go inside the relevant package, right click the driver class and select run. Choose the class path for the JDK if required, the same way you would when creating a new project.
+
+
+### For further information on using git, refer [here](https://hackernoon.com/understanding-git-fcffd87c15a3).
