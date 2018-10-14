@@ -1,4 +1,4 @@
-package pdn.scs.lab6_arrays.group;
+package pdn.scs.lab6_arrays.group_assignment.group;
 
 
 import java.util.Scanner;

@@ -1,6 +1,6 @@
-package pdn.scs.lab6_arrays;
+package pdn.scs.lab6_arrays.group_assignment;
 
-import pdn.scs.lab6_arrays.group.Group;
+import pdn.scs.lab6_arrays.group_assignment.group.Group;
 
 public class School
 {
