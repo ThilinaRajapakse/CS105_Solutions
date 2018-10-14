@@ -63,5 +63,34 @@ public class Group
         {
             total += this.marks[i];
         }
+
+        double avg = (double)total / this.marks.length;  // When calculating the average, at least one of the two
+                                                        // operands needs to be a double. Otherwise, integer division
+                                                        // is performed, resulting in an incorrect value.
+
+        System.out.println("Average marks: " + avg);
+    }
+
+
+    /**
+     * This methods finds and prints the highest value in the marks array.
+     *
+     * A local variable "highest" is declared to hold the currently found highest mark. It is initialized to 0, then
+     * checked against each mark value in the array. If the current value in the array is greater than the current value
+     * in highest, the highest variable is assigned the current value of the array.
+     */
+    public void find_highest()
+    {
+        int highest = 0;
+
+        for (int i = 0; i < this.marks.length; i++)
+        {
+            if (marks[i] > highest)
+            {
+                highest = marks[i];
+            }
+        }
+
+        System.out.println("The highest mark: " + highest);
     }
 }
